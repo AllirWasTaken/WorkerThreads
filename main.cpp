@@ -1,6 +1,11 @@
 #include <iostream>
+#include "WorkerThreads.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+
+    WorkerThreads a(1);
+
+
     return 0;
 }
